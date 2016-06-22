@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Jerry's Home"
 title_separator          : "-"
-name                     : "Jerry Qi"
+name                     : "Yuanzhi (Jerry) Qi"
 description              : "Jerry's personal website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
