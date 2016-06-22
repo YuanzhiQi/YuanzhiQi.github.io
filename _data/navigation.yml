@@ -5,7 +5,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/
 
   - title: "Projects"
-    url: https://yuanzhiqi.github.io/projects/
+    url: /projects/
 
   - title: "Reading Notes"
     url: https://mmistakes.github.io/minimal-mistakes/page-archive/
