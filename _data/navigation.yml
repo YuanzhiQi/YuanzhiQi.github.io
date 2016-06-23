@@ -2,10 +2,10 @@
 main:
 
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+    url: 
 
   - title: "Projects"
     url: /projects/
 
   - title: "Reading Notes"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+    url: 
