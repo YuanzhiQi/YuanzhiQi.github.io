@@ -2,10 +2,6 @@
 title: "Practical Machine Learning Course Project"
 categories:
   - Markdown
-tags:
-  - css
-  - html
-  - title
 ---
 
 ## Data Processing
@@ -21,7 +17,7 @@ training = read.csv("pml-training.csv", header = TRUE, na.strings = c('', NA, '#
 testing = read.csv("pml-testing.csv", header = TRUE, na.strings = c('', NA, '#DIV/0!'));
 ```
 
-In order to do the analysis and set up the prediction model, we need to exclude unnecessary columns and rows. First, to make fully use of all observations, we only use variables that do not contain any NA in them. Second, if we take a look at the test data set, we notice that all the observations in the test data set have value 'no' for the ¡°new_window¡± variable. Thus, it is reasonale for us to only pick rows that has a 'no' value for the ¡°new_window¡± variable in the training data set. After this we remove some obviously irrelevant variables. Finally, we look at the correlations and remove highly correlated columns.
+In order to do the analysis and set up the prediction model, we need to exclude unnecessary columns and rows. First, to make fully use of all observations, we only use variables that do not contain any NA in them. Second, if we take a look at the test data set, we notice that all the observations in the test data set have value 'no' for the Â¡Â°new_windowÂ¡Â± variable. Thus, it is reasonale for us to only pick rows that has a 'no' value for the Â¡Â°new_windowÂ¡Â± variable in the training data set. After this we remove some obviously irrelevant variables. Finally, we look at the correlations and remove highly correlated columns.
 
 
 ```r
